@@ -1,4 +1,5 @@
-
+@import url("header.css");
+@import url("base.css");
 @import url("cv.css");
 @import url("journal.css");
 @import url("projects.css");
