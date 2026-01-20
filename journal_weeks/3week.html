@@ -3,45 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio - Izabela Lanuszny - Journal week 1-2</title>
+    <title>SEO Journal | Week 3-4 | Izabela Lanuszny</title>
+    <meta name="description" content="Monitoring indexing status, keyword strategy, and technical image optimization for Core Web Vitals.">
+    <link rel="stylesheet" href="css/style.css"/>
 </head>
 <body>
-    <main class="weeks-container">
     <header class="weeks-intro">
         <h1>My SEO Progress Journal</h1>
+        <nav>
+            <a href="../index.html">← Back to Portfolio</a>
+            <a href="../journal.html">Pick different week</a>
+        </nav>
     </header>
 
-    <section class="weeks__section">
-        <div class="weeks__header">
-            <h3>1st week</h3>
-            <span class="weeks__date">19.11.25 - 30.11.25</span>
-        </div>
-        
-        <div class="weeks__content">
-            <p>Since the process of my work was kinda slow at the beginning, I decided to put the first week in one update.</p>
-            <ul>
-                <li>I created my own GitHub account and set up the repository for this project.</li>
-                <li>I focused on building my theoretical knowledge by reading recommended SEO articles.</li>
-                <li>I researched how search engines crawl and index new websites.</li>
-            </ul>
-        </div>
-    </section>
+    <main class="weeks-container">
+        <article class="weeks__section">
+            <header class="weeks__header">
+                <h3>3rd week</h3>
+                <time datetime="2025-12-08">08.12.25</time> - <time datetime="2025-12-14">14.12.25</time>
+            </header>
 
-    <section class="weeks__section">
-        <div class="weeks__header">
-            <h3>2nd week</h3>
-            <span class="weeks__date">01.12.25 - 07.12.25</span>
-        </div>
+            <section class="weeks__content">
+                <p>This week was about content optimization and monitoring how search engines react to my site:</p>
+                <ul>
+                    <li><strong>Indexing Status:</strong> I performed regular "site:" searches. Google has successfully indexed the homepage, but the Journal is still pending, so I requested a re-crawl in Search Console.</li>
+                    <li><strong>Keyword Strategy:</strong> I selected my primary keywords: <em>"Izabela Lanuszny Portfolio"</em> and <em>"Junior Frontend Developer Siemianowice"</em> to target local search results.</li>
+                    <li><strong>Internal Linking:</strong> I improved the navigation between my Journal and the main page to ensure a better flow for both users and search engine crawlers.</li>
+                    <li><strong>Content Update:</strong> I expanded the "About Me" section. Adding more text (around 200 words) helps search engines understand the context of my website better.</li>
+                </ul>
+            </section>
+        </article>
 
-        <div class="weeks__content">
-            <p>This week I focused on how I want my page to look like. I drew it out on paper before procceding with coding it.</p>
-            <ul>
-                <li>Deployment:  I officially pushed my portfolio to GitHub Pages.</li>
-                <li>Verification: I verified the site in Google Search Console using the HTML file method.</li>
-                <li>Indexing: I generated a <code>sitemap.xml</code> and submitted it to Google and Bing.</li>
-            </ul>
-        </div>
-    </section>
-</main>
+        <article class="weeks__section">
+            <header class="weeks__header">
+                <h3>4th week</h3>
+                <time datetime="2025-12-15">15.12.25</time> - <time datetime="2025-12-21">21.12.25</time>
+            </header>
+
+            <section class="weeks__content">
+                <p>This week was dedicated to technical performance and image optimization, which are crucial for Core Web Vitals:</p>
+                <ul>
+                    <li><strong>Performance Audit:</strong> I tested the site using Google PageSpeed Insights. My initial mobile score was 85/100, mainly due to unoptimized images.</li>
+                    <li><strong>Image Compression:</strong> I converted heavy PNG files to <code>.webp</code> format. This reduced the page size by about 60% without quality loss.</li>
+                    <li><strong>Alt Text Implementation:</strong> I added descriptive <code>alt</code> attributes to all images to improve accessibility and image search ranking.</li>
+                    <li><strong>Favicon Setup:</strong> I added a custom favicon to increase trust and click-through rates (CTR) in search results.</li>
+                </ul>
+            </section>
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Izabela Lanuszny - SEO Portfolio Project</p>
+    </footer>
 </body>
 </html>

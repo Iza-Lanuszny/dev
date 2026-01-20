@@ -2,75 +2,92 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-        <link rel="stylesheet" href="css/style.css"/>
-    <title>Portfolio - Izabela Lanuszny</title>
-    <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css"/>
+    
+    <title>Izabela Lanuszny | Junior Frontend Developer Portfolio</title>
+    <meta name="description" content="Portfolio of Izabela Lanuszny, a Junior Frontend Developer from Siemianowice Śląskie. Explore my web projects and SEO Journal.">
+    
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="sitemap.xml" />
     <meta name="google-site-verification" content="aHNrpSSq5X4QqZTVvYYpTlIkL9n7mP6G_mI92IkQae0" />
     <meta name="msvalidate.01" content="287C2CE86DC273BFE0F49366351D64E6" />
-    <meta name="describtion" content="Portfolio - Izabela Lanuszny">
+
     <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Izabela Lanuszny",
+      "jobTitle": "Junior Frontend Developer",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Siemianowice Śląskie"
+      },
+      "url": "https://iza-lanuszny.github.io/dev/"
+    }
     </script>
 </head>
 <body>
     <header>
         <nav class="header__nav">
             <div class="header__name">
-        <H1>Izabela Lanuszny</H1>
-        </div>
+                <h1>Izabela Lanuszny</h1>
+            </div>
         </nav>
     </header>
-    <main>
-    <nav class="base__nav">
-        <div class="base__about-me">
-            <h2>About me</h2>
-            <div class="base__about-me-text">
-                <p>Hi, my name is Iza. I am 21 years old.</p>
-            </div>
-        </div>
-        <div class="base__menu">
-            <li><a href="projects.html">My projects</a></li>
-            <li><a href="CV.html">CV</a></li>
-            <li><a href="journal.html">Journal</a></li>
-        </div>
 
-        <div class="contact__Info">
-        <section class="feedback-section">
-    <h2>Contact Me</h2>
-    <div class="feedback-container">
-<form
-  action="https://formspree.io/f/xykkdydq"
-  method="POST"
->
-  <label>
-    Your email:
-    <input type="email" name="email">
-  </label>
-  <label>
-    Your message:
-    <textarea name="message"></textarea>
-  </label>
-  <button type="submit">Send</button>
-</form>
-    </div>
-</section>
-<div class="contact__info-socials">
-    <section id="social-media">
-    <h2>Znajdziesz mnie tutaj</h2>
-    <div class="social-links">
-        <a href="https://www.linkedin.com/in/TWOJ-NICK" class="social-button linkedin" target="_blank" rel="noopener">
-            <span>LinkedIn</span>
-        </a>
-        <a href="https://github.com/TWOJ-NICK" class="social-button github" target="_blank" rel="noopener">
-            <span>GitHub</span>
-        </a>
-        <a href="https://twitter.com/TWOJ-NICK" class="social-button twitter" target="_blank" rel="noopener">
-            <span>X / Twitter</span>
-        </a>
-    </div>
-</section>
-</div>
-</div>
-    </nav>
-</main>
+    <main>
+        <section class="base__about-me">
+            <h2>About me</h2>
+            <article class="base__about-me-text">
+                <p>Hi, my name is Iza. I am a 21-year-old <strong>Junior Frontend Developer</strong> based in <strong>Siemianowice Śląskie</strong>. I am currently developing my skills in web development and SEO optimization.</p>
+            </article>
+        </section>
+
+        <nav class="base__menu">
+            <ul>
+                <li><a href="projects.html">My projects</a></li>
+                <li><a href="CV.html">CV</a></li>
+                <li><a href="journal.html">Journal</a></li>
+            </ul>
+        </nav>
+
+        <div class="content-wrapper">
+            <section class="feedback-section">
+                <h2>Contact Me</h2>
+                <div class="feedback-container">
+                    <form action="https://formspree.io/f/xykkdydq" method="POST">
+                        <label>
+                            Your email:
+                            <input type="email" name="email" required>
+                        </label>
+                        <label>
+                            Your message:
+                            <textarea name="message" required></textarea>
+                        </label>
+                        <button type="submit">Send</button>
+                    </form>
+                </div>
+            </section>
+
+            <section id="social-media" class="contact__info-socials">
+                <h2>Znajdziesz mnie tutaj</h2>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/iza-lanuszny-9630453a7/" class="social-button linkedin" target="_blank" rel="noopener">
+                        <span>LinkedIn</span>
+                    </a>
+                    <a href="https://github.com/Iza-Lanuszny" class="social-button github" target="_blank" rel="noopener">
+                        <span>GitHub</span>
+                    </a>
+                    <a href="https://www.instagram.com/izabela.lanuszny/" class="social-button instagram" target="_blank" rel="noopener">
+                        <span>Instagram</span>
+                    </a>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Izabela Lanuszny - Portfolio</p>
+    </footer>
 </body>
 </html>
