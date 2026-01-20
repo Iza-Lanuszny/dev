@@ -25,6 +25,208 @@
       "url": "https://iza-lanuszny.github.io/dev/"
     }
     </script>
+    <style>
+        
+        .header__nav {
+            display: flex;
+            flex-direction: column;
+            align-items: center; 
+            padding-top: 50px;    
+        }
+
+        .header__name {
+            font-size: 2.5rem;
+            color: #333;
+            margin-bottom: 2px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            position: relative;
+        }
+
+
+        .header__name::after {
+            content: "";
+            position: absolute;
+            left: -25%;         
+            width: 150%;         
+            height: 4px;        
+            background-color: #007bff; 
+            border-radius: 2px;
+        }
+
+        .base__nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+
+.base__about-me {
+    border: 2px solid #333;   
+    padding: 20px;             
+    border-radius: 8px;          
+    text-align: center;       
+    max-width: 400px;          
+    width: 100%;                 
+    margin-bottom: 20px;        
+}
+
+
+.base__about-me h2 {
+    margin-top: 0;
+    color: #007bff;           
+}
+
+
+.base__about-me-text p {
+    margin-bottom: 0;
+    font-size: 1.1rem;
+}
+
+
+
+
+.base__menu {
+    list-style: none; 
+    padding: 0;
+    display: flex;
+    gap: 15px;        
+    justify-content: center; 
+    margin-top: 20px;
+}
+
+
+.base__menu li a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px 25px;       
+    border: 2px solid #007bff; 
+    border-radius: 50px;      
+    transition: all 0.3s ease; 
+    display: inline-block;
+    font-weight: 500;
+}
+
+
+.base__menu li a:hover {
+    background-color: #007bff; 
+    color: white;              
+}
+
+
+/* Stylizacja sekcji feedback */
+.feedback-section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.feedback-container {
+    max-width: 500px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 30px;
+    border: 2px solid #333;
+    border-radius: 15px;
+    box-shadow: 5px 5px 0px #007bff; /* Efekt cienia pasujący do Twojego stylu */
+}
+
+.feedback-form {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.feedback-form label {
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+}
+
+.feedback-form input, 
+.feedback-form textarea {
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-family: inherit;
+    font-size: 1rem;
+}
+
+.feedback-form input:focus, 
+.feedback-form textarea:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0,123,255,0.3);
+}
+
+.feedback-form button {
+    background-color: #007bff;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 50px; /* Owalny przycisk jak w Twoim menu */
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.feedback-form button:hover {
+    background-color: #0056b3;
+}
+
+/* Kontener trzymający obie sekcje */
+.contact__Info {
+    display: flex;
+    justify-content: space-between; /* Rozsuwa kolumny na boki */
+    align-items: flex-start;       /* Wyrównuje je do góry */
+    gap: 40px;                     /* Odstęp między kolumnami */
+    margin-top: 40px;
+}
+
+/* Sekcja formularza (lewa strona) */
+.feedback-section {
+    flex: 1; /* Zajmuje dostępną przestrzeń */
+    max-width: 50%;
+}
+
+/* Sekcja social media (prawa strona) */
+.contact__info-socials {
+    flex: 1;
+    max-width: 40%;
+}
+
+/* Stylizacja formularza dla lepszego wyglądu */
+form {
+    display: flex;
+    flex-direction: column; /* Ustawia etykiety i pola pod sobą */
+    gap: 15px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; 
+}
+
+textarea {
+    height: 100px;
+}
+
+
+@media (max-width: 768px) {
+    .contact__Info {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .feedback-section, .contact__info-socials {
+        max-width: 100%;
+    }
+}
+    </style>
 </head>
 <body>
     <header>
