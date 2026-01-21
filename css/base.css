@@ -7,17 +7,14 @@
     background-color: white;
     border-radius: 10px;
 }
-
 .base__about-me h2 {
     font-size: 2rem; 
     margin-top: 0;
     color: var(--text-color);
 }
-
 .base__about-me-text p {
     font-size: 1.1rem; 
 }
-
 .base__menu {
     display: flex;
     justify-content: center;
@@ -26,16 +23,13 @@
     list-style: none;
     margin-bottom: 50px;
 }
-
 .base__menu ul {
     padding: 0;
     margin: 0;
 }
-
 .base__menu li {
     display: inline;
 }
-
 .base__menu a {
     display: inline-block;
     padding: 10px 25px;
@@ -45,11 +39,9 @@
     border-radius: 50px; 
     transition: background 0.3s;
 }
-
 .base__menu a:hover {
     background-color: #34495e;
 }
-
 .content-wrapper {
     display: flex;
     justify-content: space-between; 
@@ -58,12 +50,10 @@
     padding: 0 20px;
     align-items: flex-start;
 }
-
 .feedback-section {
     flex: 1;
     max-width: 45%;
 }
-
 .feedback-section h2 {
     color: var(--text-color);
 }
@@ -72,30 +62,25 @@ form {
     flex-direction: column;
     gap: 10px;
 }
-
 input, textarea {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
 }
-
 .contact__info-socials {
     flex: 1;
     max-width: 45%;
     text-align: center;
 }
-
 .contact__info-socials h2 {
     color: var(--text-color);
 }
-
 .social-links {
     display: flex;
     justify-content: flex-end; 
     gap: 15px;
     flex-wrap: wrap;
 }
-
 .social-button {
     display: flex;
     align-items: center;
@@ -110,23 +95,18 @@ input, textarea {
     border-radius: 0; 
     transition: transform 0.2s;
 }
-
 .social-button:hover {
     transform: scale(1.05);
 }
-
 .linkedin { background-color: #0077b5; }
 .github { background-color: #333; }
 .instagram { background-color: #e4405f; }
-
-/* --- STOPKA --- */
 footer {
     text-align: center;
     padding: 20px;
     background: var(--primary-color);
     color: white;
 }
-
 @media (max-width: 768px) {
     .content-wrapper {
         flex-direction: column;

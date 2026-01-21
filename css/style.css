@@ -3,8 +3,6 @@
 @import url("cv.css");
 @import url("journal.css");
 @import url("projects.css");
-
-
 :root {
     --primary-color: #a786e4;
     --sec-color: #e78ecd;
@@ -12,8 +10,6 @@
 
     --background-color: #58114f;
 }
-
-
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
