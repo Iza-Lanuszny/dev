@@ -82,7 +82,7 @@ input, textarea {
 .contact__info-socials {
     flex: 1;
     max-width: 45%;
-    text-align: right;
+    text-align: center;
 }
 
 .contact__info-socials h2 {
