@@ -9,12 +9,11 @@ header {
     text-transform: uppercase;
 }
 
-/* Linia pod imieniem wychodząca poza tekst */
 .header__name::after {
     content: "";
     display: block;
-    width: 300px; /* Szerokość linii */
+    width: 300px; 
     height: 3px;
     background-color: var(--primary-color);
-    margin: 0 auto; /* Środkuje linię */
+    margin: 0 auto; 
 }

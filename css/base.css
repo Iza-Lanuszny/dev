@@ -3,22 +3,21 @@
     margin: 40px auto;
     text-align: center;
     padding: 30px;
-    border: 2px solid #2c3e50; /* Obramowanie (otoczenie) */
+    border: 2px solid var(--sec-color); 
     background-color: white;
     border-radius: 10px;
 }
 
 .base__about-me h2 {
-    font-size: 2rem; /* Większy napis About Me */
+    font-size: 2rem; 
     margin-top: 0;
-    color: #2c3e50;
+    color: var(--primary-color);
 }
 
 .base__about-me-text p {
-    font-size: 1.1rem; /* Standardowy tekst w środku */
+    font-size: 1.1rem; 
 }
 
-/* --- MENU (Linki owalne w jednej linii) --- */
 .base__menu {
     display: flex;
     justify-content: center;
@@ -42,8 +41,8 @@
     padding: 10px 25px;
     text-decoration: none;
     color: white;
-    background-color: #2c3e50;
-    border-radius: 50px; /* Owalny kształt */
+    background-color: var(--sec-color);
+    border-radius: 50px; 
     transition: background 0.3s;
 }
 
@@ -51,17 +50,15 @@
     background-color: #34495e;
 }
 
-/* --- KONTENER KONTAKT + SOCIALS --- */
 .content-wrapper {
     display: flex;
-    justify-content: space-between; /* Kontakt po lewej, Social po prawej */
+    justify-content: space-between; 
     max-width: 1000px;
     margin: 0 auto 50px;
     padding: 0 20px;
     align-items: flex-start;
 }
 
-/* Formularz po lewej */
 .feedback-section {
     flex: 1;
     max-width: 45%;
@@ -79,16 +76,15 @@ input, textarea {
     border-radius: 5px;
 }
 
-/* Social Media po prawej (Kwadraty) */
 .contact__info-socials {
     flex: 1;
     max-width: 45%;
-    text-align: right; /* Tekst nagłówka do prawej */
+    text-align: right;
 }
 
 .social-links {
     display: flex;
-    justify-content: flex-end; /* Przyciski do prawej */
+    justify-content: flex-end; 
     gap: 15px;
     flex-wrap: wrap;
 }
@@ -97,14 +93,14 @@ input, textarea {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 80px; /* Stała szerokość */
-    height: 80px; /* Stała wysokość tworzy kwadrat */
+    width: 80px; 
+    height: 80px; 
     text-decoration: none;
     color: white;
     font-weight: bold;
     font-size: 0.8rem;
     text-align: center;
-    border-radius: 0; /* Brak zaokrąglenia - kwadraty */
+    border-radius: 0; 
     transition: transform 0.2s;
 }
 
@@ -120,11 +116,10 @@ input, textarea {
 footer {
     text-align: center;
     padding: 20px;
-    background: #2c3e50;
+    background: var(--primary-color);
     color: white;
 }
 
-/* --- RESPONSYWNOŚĆ --- */
 @media (max-width: 768px) {
     .content-wrapper {
         flex-direction: column;
