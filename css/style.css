@@ -1,5 +1,16 @@
-@import url("sections/header.css");
-@import url("sections/base.css");
-@import url("sections/cv.css");
-@import url("sections/journal.css");
-@import url("sections/projects.css");
+@import url("header.css");
+@import url("base.css");
+@import url("cv.css");
+@import url("journal.css");
+@import url("projects.css");
+
+
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}

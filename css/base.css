@@ -1,0 +1,140 @@
+.base__about-me {
+    max-width: 600px;
+    margin: 40px auto;
+    text-align: center;
+    padding: 30px;
+    border: 2px solid #2c3e50; /* Obramowanie (otoczenie) */
+    background-color: white;
+    border-radius: 10px;
+}
+
+.base__about-me h2 {
+    font-size: 2rem; /* Większy napis About Me */
+    margin-top: 0;
+    color: #2c3e50;
+}
+
+.base__about-me-text p {
+    font-size: 1.1rem; /* Standardowy tekst w środku */
+}
+
+/* --- MENU (Linki owalne w jednej linii) --- */
+.base__menu {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0;
+    list-style: none;
+    margin-bottom: 50px;
+}
+
+.base__menu ul {
+    padding: 0;
+    margin: 0;
+}
+
+.base__menu li {
+    display: inline;
+}
+
+.base__menu a {
+    display: inline-block;
+    padding: 10px 25px;
+    text-decoration: none;
+    color: white;
+    background-color: #2c3e50;
+    border-radius: 50px; /* Owalny kształt */
+    transition: background 0.3s;
+}
+
+.base__menu a:hover {
+    background-color: #34495e;
+}
+
+/* --- KONTENER KONTAKT + SOCIALS --- */
+.content-wrapper {
+    display: flex;
+    justify-content: space-between; /* Kontakt po lewej, Social po prawej */
+    max-width: 1000px;
+    margin: 0 auto 50px;
+    padding: 0 20px;
+    align-items: flex-start;
+}
+
+/* Formularz po lewej */
+.feedback-section {
+    flex: 1;
+    max-width: 45%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input, textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Social Media po prawej (Kwadraty) */
+.contact__info-socials {
+    flex: 1;
+    max-width: 45%;
+    text-align: right; /* Tekst nagłówka do prawej */
+}
+
+.social-links {
+    display: flex;
+    justify-content: flex-end; /* Przyciski do prawej */
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.social-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px; /* Stała szerokość */
+    height: 80px; /* Stała wysokość tworzy kwadrat */
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 0.8rem;
+    text-align: center;
+    border-radius: 0; /* Brak zaokrąglenia - kwadraty */
+    transition: transform 0.2s;
+}
+
+.social-button:hover {
+    transform: scale(1.05);
+}
+
+.linkedin { background-color: #0077b5; }
+.github { background-color: #333; }
+.instagram { background-color: #e4405f; }
+
+/* --- STOPKA --- */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #2c3e50;
+    color: white;
+}
+
+/* --- RESPONSYWNOŚĆ --- */
+@media (max-width: 768px) {
+    .content-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+    .feedback-section, .contact__info-socials {
+        max-width: 100%;
+        text-align: center;
+    }
+    .social-links {
+        justify-content: center;
+    }
+}
