@@ -105,7 +105,7 @@ footer {
     text-align: center;
     padding: 20px;
     background: var(--primary-color);
-    color: white;
+    color: rgb(0, 0, 0);
 }
 @media (max-width: 768px) {
     .content-wrapper {
