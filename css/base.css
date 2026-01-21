@@ -11,7 +11,7 @@
 .base__about-me h2 {
     font-size: 2rem; 
     margin-top: 0;
-    color: var(--sec-color);
+    color: var(--text-color);
 }
 
 .base__about-me-text p {
@@ -64,6 +64,9 @@
     max-width: 45%;
 }
 
+.feedback-section h2 {
+    color: var(--text-color);
+}
 form {
     display: flex;
     flex-direction: column;
@@ -80,6 +83,10 @@ input, textarea {
     flex: 1;
     max-width: 45%;
     text-align: right;
+}
+
+.contact__info-socials h2 {
+    color: var(--text-color);
 }
 
 .social-links {
