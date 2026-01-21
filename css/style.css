@@ -5,6 +5,13 @@
 @import url("projects.css");
 
 
+:root {
+    --primary-color: #ff03c8;
+    --sec-color: #00ff80;
+
+    --background-color: #58114f;
+}
+
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
